@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>word game</title>
+</head>
+<body>
+  <div class="wrapper">
+    <h2>کلمه رو حدس بزن</h2>
+    <div class="content">
+      <input type="text"  class="typing-input" maxlength="1">
+      <div class="inputs">
+        
+      </div>
+      <div class="details">
+        <p class="hint">کشوری در آمریکای جنوبی</p>
+        <p class="guess-remain">حدس های باقیمانده : <span>4</span></p>
+        <p class="wrong-letters">حروف اشتباه : <span></span></p>
+      </div>
+      <button id="reset">دوباره</button>
+    </div>
+  </div>
+
+  <script src="words.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
